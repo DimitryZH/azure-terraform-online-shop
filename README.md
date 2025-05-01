@@ -76,6 +76,11 @@ AKS cluster name
 ACR login server
 Kubernetes credentials
 ```
+## Results  
+The screenshot below shows the Azure Resource Visualizer, highlighting the infrastructure components provisioned by Terraform, including the AKS cluster and related resources.
+
+![azure-online-shop-resource-vizualizer](https://github.com/user-attachments/assets/1469c7ab-ab23-468a-981b-23295a1d715a)
+
 ## Conclusions
 This Terraform setup lays the foundation for a secure and scalable Azure Kubernetes environment. By managing infrastructure as code, you ensure consistency, repeatability, and easier collaboration across teams. As you continue to expand, consider integrating Key Vault, monitoring, network policies, and GitOps (e.g., Argo CD) for production-grade deployments.
 
